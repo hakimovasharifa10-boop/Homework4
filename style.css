@@ -276,11 +276,11 @@ nav {
 }
 .sec5 {
   background-color: #f6f6f6f9;
-  padding: 20px 10%;
+  padding: 40px 10%;
 }
 .hidden {
   display: flex;
-  overflow:auto;
+  overflow: auto;
 }
 .women {
   display: flex;
@@ -312,4 +312,29 @@ nav {
 .girl {
   position: absolute;
   left: 270px;
+}
+.sec6 {
+  background-image: url(./images/water.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 50%;
+  height: 440px;
+}
+.sec6 h2 {
+  font-size: 50px;
+  color: #292d32;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+.sec6 button{
+  padding: 20px 100px;
+  background-color: #177BA5;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  display: block;
+  margin: 40px auto;
 }
