@@ -1,0 +1,391 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-image: url(../images/ship.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
+  height: 100vh;
+  position: relative;
+}
+nav {
+  padding: 40px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo a {
+  text-decoration: none;
+  color: white;
+  font-size: 48px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.links a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.head1 h1 {
+  font-size: 80px;
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+}
+.flight {
+  width: 330px;
+  height: 85px;
+  background-color: rgba(255, 255, 255, 0.534);
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 40px 40px 0px 0px;
+  position: absolute;
+  bottom: 60px;
+  left: 200px;
+}
+.airplane {
+  width: 130px;
+  height: 50px;
+  background-color: #177ba5;
+  color: white;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 18px;
+  border-radius: 30px;
+  border: none;
+  justify-content: center;
+}
+.air {
+  width: 30px;
+}
+.building {
+  width: 130px;
+  height: 50px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 18px;
+  background-color: transparent;
+  border: none;
+}
+.build {
+  width: 30px;
+}
+.fly {
+  width: 940px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.534);
+  border-radius: 0px 30px 30px 30px;
+  position: absolute;
+  bottom: -140px;
+  left: 200px;
+}
+.country {
+  display: flex;
+  gap: 20px;
+  background-color: rgba(255, 255, 255, 0.721);
+  width: 380px;
+  height: 140px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 30px;
+}
+.top {
+  color: #00000080;
+  font-size: 20px;
+}
+.bottom {
+  font-size: 24px;
+  margin-top: 10px;
+}
+.fly {
+  display: flex;
+  gap: 60px;
+}
+.sec1 {
+  background-color: #f6f6f6f9;
+  padding: 150px 10%;
+}
+.sec1 h2 {
+  font-size: 50px;
+  color: #292d32;
+  text-align: center;
+  margin-top: 50px;
+}
+.card {
+  background-color: white;
+  width: 360px;
+  height: 460px;
+  border-radius: 30px;
+  padding: 30px;
+}
+.card h3 {
+  font-size: 24px;
+  color: #292d32;
+  text-align: center;
+  margin: 10px 0px;
+}
+.chill {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+  align-items: center;
+}
+.cost {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+}
+.chill button {
+  padding: 6px 14px;
+  background-color: #2d8985;
+  color: white;
+  border-radius: 20px;
+  border: none;
+}
+.chill p {
+  color: #00000080;
+}
+.cost p {
+  font-size: 24px;
+  font-weight: 700;
+}
+.cost span {
+  color: #00000080;
+  font-size: 20px;
+  font-weight: 400;
+}
+.cost button {
+  background-color: #177ba5;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin: 40px 0px;
+}
+.sec2 {
+  background-color: #f4f2ee;
+  padding: 20px 5%;
+}
+.book {
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+}
+.right_sec2 h3 {
+  font-size: 36px;
+  color: #177ba5;
+  margin-top: 140px;
+}
+.right_sec2 p {
+  color: #292d32;
+  width: 60%;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 30px 0px;
+}
+.right_sec2 button {
+  background-color: #177ba5;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+.sec3 {
+  background-color: #f6f6f6f9;
+  padding: 20px 10%;
+}
+.right_sec3 {
+  display: flex;
+  gap: 30px;
+}
+.city {
+  display: flex;
+  justify-content: space-between;
+}
+.left_sec3 h3 {
+  font-size: 48px;
+  color: #292d32;
+}
+.left_sec3 p {
+  font-size: 24px;
+  color: #292d32;
+  width: 60%;
+  line-height: 28px;
+  margin: 20px 0px;
+}
+.arrows {
+  margin-top: 50px;
+  margin-left: 250px;
+}
+.sec4 {
+  background-color: #f6f6f6f9;
+  padding: 20px 10%;
+}
+.top_sec4 {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.sec4 h2 {
+  font-size: 40px;
+  color: #292d32;
+  text-align: center;
+  margin: 30px 0px;
+}
+.text_top h4 {
+  font-size: 30px;
+  margin-top: 40px;
+}
+.text_top p {
+  color: #292d32;
+  font-size: 24px;
+  width: 70%;
+  line-height: 34px;
+  margin: 20px 0px;
+}
+.read {
+  display: flex;
+  gap: 10px;
+  margin-top: 50px;
+}
+.bottom_sec4 {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 40px;
+}
+.sec5 {
+  background-color: #f6f6f6f9;
+  padding: 40px 10%;
+}
+.hidden {
+  display: flex;
+  overflow: auto;
+}
+.women {
+  display: flex;
+  gap: 50px;
+}
+.woman {
+  background-color: white;
+  width: 620px;
+  height: 200px;
+  border-radius: 40px;
+  text-align: center;
+  position: relative;
+}
+.sec5 h2 {
+  font-size: 48px;
+  text-align: center;
+  margin: 50px 0px;
+}
+.woman h6 {
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 90px;
+}
+.woman p {
+  font-size: 24px;
+  width: 60%;
+  margin: 14px auto;
+}
+.girl {
+  position: absolute;
+  left: 270px;
+}
+.sec6 {
+  background-image: url(../images/water.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 50%;
+  height: 440px;
+}
+.sec6 h2 {
+  font-size: 50px;
+  color: #292d32;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+.sec6 button{
+  padding: 20px 100px;
+  background-color: #177BA5;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  display: block;
+  margin: 40px auto;
+}
+.foot{
+  background-color: #f6f6f6f9;
+  padding: 20px 5%;
+}
+.rows{
+  display: flex;
+  justify-content: space-between;
+}
+.img_foot{
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  gap: 10px;
+}
+.row h6{
+  font-size: 24px;
+  margin: 20px 0px;
+}
+.row p{
+  font-size: 18px;
+  color: #292D32;
+  line-height: 28px;
+}
+input{
+  display: block;
+  width: 260px;
+  height: 40px;
+  border-radius: 30px;
+  padding-left: 10px;
+  border: none;
+}
+.row button{
+  background-color: #177BA5;
+  color: white;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.bot_foot{
+  background-color:rgba(0, 0, 0, 0.877);
+  color: white;
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 18px;
+}
+.media{
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+}
