@@ -91,25 +91,93 @@ nav {
   bottom: -140px;
   left: 200px;
 }
-.country{
-    display: flex;
-    gap: 20px;
-    background-color: rgba(255, 255, 255, 0.721);
-    width: 380px;
-    height: 140px;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 30px;
+.country {
+  display: flex;
+  gap: 20px;
+  background-color: rgba(255, 255, 255, 0.721);
+  width: 380px;
+  height: 140px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 30px;
 }
-.top{
-    color: #00000080;
-    font-size: 20px;
+.top {
+  color: #00000080;
+  font-size: 20px;
 }
-.bottom{
-    font-size: 24px;
-    margin-top: 10px;
+.bottom {
+  font-size: 24px;
+  margin-top: 10px;
 }
-.fly{
-    display: flex;
-    gap: 60px;
+.fly {
+  display: flex;
+  gap: 60px;
+}
+.sec1 {
+  background-color: #f6f6f6f9;
+  padding: 150px 10%;
+}
+.sec1 h2 {
+  font-size: 50px;
+  color: #292d32;
+  text-align: center;
+  margin-top: 50px;
+}
+.card {
+  background-color: white;
+  width: 360px;
+  height: 460px;
+  border-radius: 30px;
+  padding: 30px;
+}
+.card h3 {
+  font-size: 24px;
+  color: #292d32;
+  text-align: center;
+  margin: 10px 0px;
+}
+.chill {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+  align-items: center;
+}
+.cost {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+}
+.chill button {
+  padding: 6px 14px;
+  background-color: #2d8985;
+  color: white;
+  border-radius: 20px;
+  border: none;
+}
+.chill p {
+  color: #00000080;
+}
+.cost p {
+  font-size: 24px;
+  font-weight: 700;
+}
+.cost span {
+  color: #00000080;
+  font-size: 20px;
+  font-weight: 400;
+}
+.cost button {
+  background-color: #177ba5;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin: 40px 0px;
 }
