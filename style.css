@@ -246,31 +246,70 @@ nav {
   justify-content: space-between;
   gap: 30px;
 }
-.sec4 h2{
+.sec4 h2 {
   font-size: 40px;
-  color: #292D32;
+  color: #292d32;
   text-align: center;
   margin: 30px 0px;
 }
-.text_top h4{
+.text_top h4 {
   font-size: 30px;
   margin-top: 40px;
 }
-.text_top p{
-  color: #292D32;
+.text_top p {
+  color: #292d32;
   font-size: 24px;
   width: 70%;
   line-height: 34px;
   margin: 20px 0px;
 }
-.read{
+.read {
   display: flex;
   gap: 10px;
   margin-top: 50px;
 }
-.bottom_sec4{
+.bottom_sec4 {
   display: flex;
   justify-content: space-between;
   gap: 30px;
   margin-top: 40px;
+}
+.sec5 {
+  background-color: #f6f6f6f9;
+  padding: 20px 10%;
+}
+.hidden {
+  display: flex;
+  overflow:auto;
+}
+.women {
+  display: flex;
+  gap: 50px;
+}
+.woman {
+  background-color: white;
+  width: 620px;
+  height: 200px;
+  border-radius: 40px;
+  text-align: center;
+  position: relative;
+}
+.sec5 h2 {
+  font-size: 48px;
+  text-align: center;
+  margin: 30px 0px;
+}
+.woman h6 {
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 90px;
+}
+.woman p {
+  font-size: 24px;
+  width: 60%;
+  margin: 14px auto;
+}
+.girl {
+  position: absolute;
+  left: 270px;
 }
