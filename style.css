@@ -210,3 +210,30 @@ nav {
   border-radius: 30px;
   margin-top: 20px;
 }
+.sec3{
+  background-color: #F6F6F6F9;
+  padding: 20px 10%;
+}
+.right_sec3{
+  display: flex;
+  gap: 30px;
+}
+.city{
+  display: flex;
+  justify-content: space-between;
+}
+.left_sec3 h3{
+  font-size: 48px;
+  color: #292D32;
+}
+.left_sec3 p{
+  font-size: 24px;
+  color: #292D32;
+  width: 60%;
+  line-height: 28px;
+  margin: 20px 0px;
+}
+.arrows{
+  margin-top: 50px;
+  margin-left: 250px;
+}
